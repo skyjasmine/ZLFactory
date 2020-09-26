@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9645687C251CD1700081FB9E /* ZLNYPizzaIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9645687B251CD1700081FB9E /* ZLNYPizzaIngredientFactory.m */; };
+		9645687F251CD1B40081FB9E /* ZLThinCrustDough.m in Sources */ = {isa = PBXBuildFile; fileRef = 9645687E251CD1B40081FB9E /* ZLThinCrustDough.m */; };
+		96456882251CD1D10081FB9E /* ZLMarinaraSauce.m in Sources */ = {isa = PBXBuildFile; fileRef = 96456881251CD1D10081FB9E /* ZLMarinaraSauce.m */; };
+		96456885251CD5A90081FB9E /* ZLVeggiePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 96456884251CD5A90081FB9E /* ZLVeggiePizza.m */; };
+		96456889251EDD7E0081FB9E /* ZLChicagoIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 96456888251EDD7E0081FB9E /* ZLChicagoIngredientFactory.m */; };
+		965B62F0251B7BC000703E2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B62EF251B7BC000703E2E /* main.m */; };
+		965B62F8251B7BD600703E2E /* ZLPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B62F7251B7BD600703E2E /* ZLPizza.m */; };
+		965B62FB251B7C7C00703E2E /* ZLCheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B62FA251B7C7C00703E2E /* ZLCheesePizza.m */; };
+		965B62FE251B7CE900703E2E /* ZLPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B62FD251B7CE900703E2E /* ZLPizzaStore.m */; };
+		965B6301251C338F00703E2E /* ZLNYStylePizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B6300251C338F00703E2E /* ZLNYStylePizzaStore.m */; };
+		965B6304251C353000703E2E /* ZLNYStyleCheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B6303251C353000703E2E /* ZLNYStyleCheesePizza.m */; };
+		965B6307251C354A00703E2E /* ZLNYStyleVeggiePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B6306251C354A00703E2E /* ZLNYStyleVeggiePizza.m */; };
+		965B630A251C3C3500703E2E /* ZLChicagoPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B6309251C3C3500703E2E /* ZLChicagoPizzaStore.m */; };
+		965B630D251C3CFD00703E2E /* ZLChicagoStyleCheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B630C251C3CFD00703E2E /* ZLChicagoStyleCheesePizza.m */; };
+		965B6310251C3DCE00703E2E /* ZLChicagoStyleVeggiePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B630F251C3DCE00703E2E /* ZLChicagoStyleVeggiePizza.m */; };
+		965B6319251CCEB400703E2E /* ZLDough.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B6318251CCEB400703E2E /* ZLDough.m */; };
+		965B631D251CCED500703E2E /* ZLSauce.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B631C251CCED500703E2E /* ZLSauce.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		965B62EA251B7BC000703E2E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9645687A251CD1700081FB9E /* ZLNYPizzaIngredientFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLNYPizzaIngredientFactory.h; sourceTree = "<group>"; };
+		9645687B251CD1700081FB9E /* ZLNYPizzaIngredientFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLNYPizzaIngredientFactory.m; sourceTree = "<group>"; };
+		9645687D251CD1B40081FB9E /* ZLThinCrustDough.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLThinCrustDough.h; sourceTree = "<group>"; };
+		9645687E251CD1B40081FB9E /* ZLThinCrustDough.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLThinCrustDough.m; sourceTree = "<group>"; };
+		96456880251CD1D10081FB9E /* ZLMarinaraSauce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLMarinaraSauce.h; sourceTree = "<group>"; };
+		96456881251CD1D10081FB9E /* ZLMarinaraSauce.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLMarinaraSauce.m; sourceTree = "<group>"; };
+		96456883251CD5A90081FB9E /* ZLVeggiePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLVeggiePizza.h; sourceTree = "<group>"; };
+		96456884251CD5A90081FB9E /* ZLVeggiePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLVeggiePizza.m; sourceTree = "<group>"; };
+		96456886251E238C0081FB9E /* ZLCreatePizzaIngredient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCreatePizzaIngredient.h; sourceTree = "<group>"; };
+		96456887251EDD7E0081FB9E /* ZLChicagoIngredientFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLChicagoIngredientFactory.h; sourceTree = "<group>"; };
+		96456888251EDD7E0081FB9E /* ZLChicagoIngredientFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLChicagoIngredientFactory.m; sourceTree = "<group>"; };
+		965B62EC251B7BC000703E2E /* ZLFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZLFactory; sourceTree = BUILT_PRODUCTS_DIR; };
+		965B62EF251B7BC000703E2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		965B62F6251B7BD600703E2E /* ZLPizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLPizza.h; sourceTree = "<group>"; };
+		965B62F7251B7BD600703E2E /* ZLPizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLPizza.m; sourceTree = "<group>"; };
+		965B62F9251B7C7C00703E2E /* ZLCheesePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCheesePizza.h; sourceTree = "<group>"; };
+		965B62FA251B7C7C00703E2E /* ZLCheesePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLCheesePizza.m; sourceTree = "<group>"; };
+		965B62FC251B7CE900703E2E /* ZLPizzaStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLPizzaStore.h; sourceTree = "<group>"; };
+		965B62FD251B7CE900703E2E /* ZLPizzaStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLPizzaStore.m; sourceTree = "<group>"; };
+		965B62FF251C338F00703E2E /* ZLNYStylePizzaStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLNYStylePizzaStore.h; sourceTree = "<group>"; };
+		965B6300251C338F00703E2E /* ZLNYStylePizzaStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLNYStylePizzaStore.m; sourceTree = "<group>"; };
+		965B6302251C353000703E2E /* ZLNYStyleCheesePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLNYStyleCheesePizza.h; sourceTree = "<group>"; };
+		965B6303251C353000703E2E /* ZLNYStyleCheesePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLNYStyleCheesePizza.m; sourceTree = "<group>"; };
+		965B6305251C354A00703E2E /* ZLNYStyleVeggiePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLNYStyleVeggiePizza.h; sourceTree = "<group>"; };
+		965B6306251C354A00703E2E /* ZLNYStyleVeggiePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLNYStyleVeggiePizza.m; sourceTree = "<group>"; };
+		965B6308251C3C3500703E2E /* ZLChicagoPizzaStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLChicagoPizzaStore.h; sourceTree = "<group>"; };
+		965B6309251C3C3500703E2E /* ZLChicagoPizzaStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLChicagoPizzaStore.m; sourceTree = "<group>"; };
+		965B630B251C3CFD00703E2E /* ZLChicagoStyleCheesePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLChicagoStyleCheesePizza.h; sourceTree = "<group>"; };
+		965B630C251C3CFD00703E2E /* ZLChicagoStyleCheesePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLChicagoStyleCheesePizza.m; sourceTree = "<group>"; };
+		965B630E251C3DCE00703E2E /* ZLChicagoStyleVeggiePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLChicagoStyleVeggiePizza.h; sourceTree = "<group>"; };
+		965B630F251C3DCE00703E2E /* ZLChicagoStyleVeggiePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLChicagoStyleVeggiePizza.m; sourceTree = "<group>"; };
+		965B6317251CCEB400703E2E /* ZLDough.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLDough.h; sourceTree = "<group>"; };
+		965B6318251CCEB400703E2E /* ZLDough.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLDough.m; sourceTree = "<group>"; };
+		965B631B251CCED500703E2E /* ZLSauce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLSauce.h; sourceTree = "<group>"; };
+		965B631C251CCED500703E2E /* ZLSauce.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLSauce.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		965B62E9251B7BC000703E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		965B62E3251B7BC000703E2E = {
+			isa = PBXGroup;
+			children = (
+				965B62EE251B7BC000703E2E /* ZLFactory */,
+				965B62ED251B7BC000703E2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		965B62ED251B7BC000703E2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				965B62EC251B7BC000703E2E /* ZLFactory */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		965B62EE251B7BC000703E2E /* ZLFactory */ = {
+			isa = PBXGroup;
+			children = (
+				965B631E251CCFAC00703E2E /* IngredientFactory */,
+				965B631A251CCEC700703E2E /* Sauce */,
+				965B6316251CCE9800703E2E /* Dough */,
+				965B62EF251B7BC000703E2E /* main.m */,
+				965B6311251CCD0E00703E2E /* Pizza */,
+				965B6312251CCD3700703E2E /* PizzaStore */,
+			);
+			path = ZLFactory;
+			sourceTree = "<group>";
+		};
+		965B6311251CCD0E00703E2E /* Pizza */ = {
+			isa = PBXGroup;
+			children = (
+				965B62F9251B7C7C00703E2E /* ZLCheesePizza.h */,
+				965B62FA251B7C7C00703E2E /* ZLCheesePizza.m */,
+				965B62F6251B7BD600703E2E /* ZLPizza.h */,
+				965B62F7251B7BD600703E2E /* ZLPizza.m */,
+				965B6302251C353000703E2E /* ZLNYStyleCheesePizza.h */,
+				965B6303251C353000703E2E /* ZLNYStyleCheesePizza.m */,
+				965B6305251C354A00703E2E /* ZLNYStyleVeggiePizza.h */,
+				965B6306251C354A00703E2E /* ZLNYStyleVeggiePizza.m */,
+				965B630B251C3CFD00703E2E /* ZLChicagoStyleCheesePizza.h */,
+				965B630C251C3CFD00703E2E /* ZLChicagoStyleCheesePizza.m */,
+				965B630E251C3DCE00703E2E /* ZLChicagoStyleVeggiePizza.h */,
+				965B630F251C3DCE00703E2E /* ZLChicagoStyleVeggiePizza.m */,
+				96456883251CD5A90081FB9E /* ZLVeggiePizza.h */,
+				96456884251CD5A90081FB9E /* ZLVeggiePizza.m */,
+			);
+			path = Pizza;
+			sourceTree = "<group>";
+		};
+		965B6312251CCD3700703E2E /* PizzaStore */ = {
+			isa = PBXGroup;
+			children = (
+				965B6308251C3C3500703E2E /* ZLChicagoPizzaStore.h */,
+				965B6309251C3C3500703E2E /* ZLChicagoPizzaStore.m */,
+				965B62FF251C338F00703E2E /* ZLNYStylePizzaStore.h */,
+				965B6300251C338F00703E2E /* ZLNYStylePizzaStore.m */,
+				965B62FC251B7CE900703E2E /* ZLPizzaStore.h */,
+				965B62FD251B7CE900703E2E /* ZLPizzaStore.m */,
+			);
+			path = PizzaStore;
+			sourceTree = "<group>";
+		};
+		965B6316251CCE9800703E2E /* Dough */ = {
+			isa = PBXGroup;
+			children = (
+				965B6317251CCEB400703E2E /* ZLDough.h */,
+				965B6318251CCEB400703E2E /* ZLDough.m */,
+				9645687D251CD1B40081FB9E /* ZLThinCrustDough.h */,
+				9645687E251CD1B40081FB9E /* ZLThinCrustDough.m */,
+			);
+			path = Dough;
+			sourceTree = "<group>";
+		};
+		965B631A251CCEC700703E2E /* Sauce */ = {
+			isa = PBXGroup;
+			children = (
+				965B631B251CCED500703E2E /* ZLSauce.h */,
+				965B631C251CCED500703E2E /* ZLSauce.m */,
+				96456880251CD1D10081FB9E /* ZLMarinaraSauce.h */,
+				96456881251CD1D10081FB9E /* ZLMarinaraSauce.m */,
+			);
+			path = Sauce;
+			sourceTree = "<group>";
+		};
+		965B631E251CCFAC00703E2E /* IngredientFactory */ = {
+			isa = PBXGroup;
+			children = (
+				9645687A251CD1700081FB9E /* ZLNYPizzaIngredientFactory.h */,
+				9645687B251CD1700081FB9E /* ZLNYPizzaIngredientFactory.m */,
+				96456886251E238C0081FB9E /* ZLCreatePizzaIngredient.h */,
+				96456887251EDD7E0081FB9E /* ZLChicagoIngredientFactory.h */,
+				96456888251EDD7E0081FB9E /* ZLChicagoIngredientFactory.m */,
+			);
+			path = IngredientFactory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		965B62EB251B7BC000703E2E /* ZLFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 965B62F3251B7BC000703E2E /* Build configuration list for PBXNativeTarget "ZLFactory" */;
+			buildPhases = (
+				965B62E8251B7BC000703E2E /* Sources */,
+				965B62E9251B7BC000703E2E /* Frameworks */,
+				965B62EA251B7BC000703E2E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLFactory;
+			productName = ZLFactory;
+			productReference = 965B62EC251B7BC000703E2E /* ZLFactory */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		965B62E4251B7BC000703E2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = DingTalk;
+				TargetAttributes = {
+					965B62EB251B7BC000703E2E = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 965B62E7251B7BC000703E2E /* Build configuration list for PBXProject "ZLFactory" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 965B62E3251B7BC000703E2E;
+			productRefGroup = 965B62ED251B7BC000703E2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				965B62EB251B7BC000703E2E /* ZLFactory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		965B62E8251B7BC000703E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9645687F251CD1B40081FB9E /* ZLThinCrustDough.m in Sources */,
+				965B6304251C353000703E2E /* ZLNYStyleCheesePizza.m in Sources */,
+				965B62FB251B7C7C00703E2E /* ZLCheesePizza.m in Sources */,
+				965B62F8251B7BD600703E2E /* ZLPizza.m in Sources */,
+				965B6307251C354A00703E2E /* ZLNYStyleVeggiePizza.m in Sources */,
+				965B6310251C3DCE00703E2E /* ZLChicagoStyleVeggiePizza.m in Sources */,
+				965B6301251C338F00703E2E /* ZLNYStylePizzaStore.m in Sources */,
+				965B62FE251B7CE900703E2E /* ZLPizzaStore.m in Sources */,
+				965B62F0251B7BC000703E2E /* main.m in Sources */,
+				965B631D251CCED500703E2E /* ZLSauce.m in Sources */,
+				965B6319251CCEB400703E2E /* ZLDough.m in Sources */,
+				96456889251EDD7E0081FB9E /* ZLChicagoIngredientFactory.m in Sources */,
+				965B630D251C3CFD00703E2E /* ZLChicagoStyleCheesePizza.m in Sources */,
+				96456885251CD5A90081FB9E /* ZLVeggiePizza.m in Sources */,
+				965B630A251C3C3500703E2E /* ZLChicagoPizzaStore.m in Sources */,
+				96456882251CD1D10081FB9E /* ZLMarinaraSauce.m in Sources */,
+				9645687C251CD1700081FB9E /* ZLNYPizzaIngredientFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		965B62F1251B7BC000703E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		965B62F2251B7BC000703E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		965B62F4251B7BC000703E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		965B62F5251B7BC000703E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		965B62E7251B7BC000703E2E /* Build configuration list for PBXProject "ZLFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965B62F1251B7BC000703E2E /* Debug */,
+				965B62F2251B7BC000703E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		965B62F3251B7BC000703E2E /* Build configuration list for PBXNativeTarget "ZLFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965B62F4251B7BC000703E2E /* Debug */,
+				965B62F5251B7BC000703E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 965B62E4251B7BC000703E2E /* Project object */;
+}
