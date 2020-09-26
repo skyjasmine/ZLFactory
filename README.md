@@ -1,0 +1,2 @@
+# ZLFactory
+Factory pattern exercise.
